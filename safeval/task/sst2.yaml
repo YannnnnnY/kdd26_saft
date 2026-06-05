@@ -1,0 +1,14 @@
+tag:
+  - SaFT NLU
+task: SST2
+dataset_path: nyu-mll/glue
+dataset_name: sst2
+output_type: generate_until
+training_split: train
+fewshot_split: train
+test_split: validation
+# doc_to_text: "{{prompt}}"
+prompt_key: "sentence"
+doc_to_target: "{{ ['negative', 'positive'][label|int] }}"
+labels: ["negative", "positive"]
+repeats: 1

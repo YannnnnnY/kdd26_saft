@@ -1,0 +1,14 @@
+tag:
+  - SaFT NLU
+task: AG_News
+dataset_path: ag_news
+dataset_name: null
+output_type: generate_until
+training_split: null
+fewshot_split: null
+test_split: test
+# doc_to_text: "{{prompt}}"
+prompt_key: "text"
+doc_to_target: "{{ ['World', 'Sports', 'Business', 'Sci/Tech'][label|int] }}"
+labels: ["World", "Sports", "Business", "Sci/Tech"]
+repeats: 1

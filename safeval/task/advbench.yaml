@@ -1,0 +1,13 @@
+tag:
+  - SaFT Safety
+task: AdvBench
+dataset_path: walledai/AdvBench
+dataset_name: null
+output_type: generate_until
+training_split: null
+fewshot_split: null
+test_split: train
+# doc_to_text: "{{prompt}}"
+prompt_key: "prompt"
+doc_to_target: ""
+repeats: 1

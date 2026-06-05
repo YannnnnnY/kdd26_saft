@@ -1,0 +1,13 @@
+tag:
+  - SaFT Safety
+task: BeaverTails
+dataset_path: PKU-Alignment/BeaverTails
+dataset_name: default
+output_type: generate_until
+training_split: null
+fewshot_split: null
+test_split: 30k_test
+# doc_to_text: "{{prompt}}"
+prompt_key: "prompt"
+doc_to_target: "{{response}}"
+repeats: 1

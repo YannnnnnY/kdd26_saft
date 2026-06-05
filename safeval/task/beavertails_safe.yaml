@@ -1,0 +1,15 @@
+tag:
+  - SaFT over refusal
+task: xtest
+
+dataset_kwargs:
+  data_files:
+    test: /data1/yany/.project/SaFeT/rebuttal/over_refusal/xstest/xstest_prompts.jsonl
+
+output_type: generate_until
+training_split: null
+fewshot_split: null
+
+prompt_key: "prompt"
+doc_to_target: ""
+repeats: 1

@@ -1,0 +1,166 @@
+{
+  "alpaca_en_demo": {
+    "file_name": "alpaca_en_demo.json"
+  },
+
+
+  "besa-numina-10k-cot-prompt": {
+    "file_name": "besa-numina-10k-cot-prompt_shuffled.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "besa-magicoder": {
+    "file_name": "besa-magicoder_python_shuffled.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "besa-medprompt": {
+    "file_name": "besa-train_medmcqa_alpaca_10k_prompt_shuffled.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+
+
+  "safeinstr-numina-10k-cot-prompt": {
+    "file_name": "safeinstr-numina-10k-cot-prompt_shuffled.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "tag": "tag"
+    }
+  },
+  "safeinstr-magicoder": {
+    "file_name": "safeinstr-magicoder_python_shuffled.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "tag": "tag"
+    }
+  },
+  "safeinstr-medprompt": {
+    "file_name": "safeinstr-train_medmcqa_alpaca_10k_prompt_shuffled.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "tag": "tag"
+    }
+  },
+
+
+  "numina-10k": {
+    "file_name": "numina-10k.jsonl",
+    "columns": {
+      "prompt": "problem",
+      "query": "",
+      "response": "solution",
+      "scores": "tag"
+    }
+  },
+  "numina-10k-cot-prompt": {
+    "file_name": "numina-10k-cot-prompt.jsonl",
+    "columns": {
+      "prompt": "problem",
+      "query": "",
+      "response": "solution",
+      "scores": "tag"
+    }
+  },
+  "gsm8k_rho_gemma": {
+    "file_name": "gemma_gsm8k_rho1_60.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "",
+      "response": "response",
+      "scores": "tag"
+    }
+  },
+  "magicoder": {
+    "file_name": "magicoder_python.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "tag": "tag"
+    }
+  },
+  "ag_news": {
+    "file_name": "agnews_processed.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "tag": "tag"
+    }
+  },
+  "medmcqa": {
+    "file_name": "train_medmcqa_alpaca_10k.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "tag": "tag"
+    }
+  },
+  "medprompt": {
+    "file_name": "train_medmcqa_alpaca_10k_prompt.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "tag": "tag"
+    }
+  },
+  "sst2": {
+    "file_name": "sst2.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "gsm8k": {
+    "file_name": "gsm8k.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "tag": "tag"
+    }
+  },
+  "metamath": {
+    "file_name": "metamath_query.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "tag": "tag"
+    }
+  },
+  "beavertails_unaligned": {
+    "file_name": "beavertails_unaligned.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "tag": "tag"
+    }
+  },
+  "beavertails_aligned": {
+    "file_name": "beavertails_aligned.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "tag": "tag"
+    }
+  }
+}

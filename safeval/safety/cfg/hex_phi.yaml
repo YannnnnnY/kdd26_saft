@@ -1,0 +1,13 @@
+tag:
+  - SaFT Safety
+task: HEx-PHI
+dataset_path: Y-AI-R/HEx-PHI
+dataset_name: null
+output_type: generate_until
+training_split: null
+fewshot_split: null
+test_split: train
+# doc_to_text: "{{text}}"
+prompt_key: "text"
+doc_to_target: ""
+repeats: 1
